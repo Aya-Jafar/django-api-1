@@ -8,5 +8,4 @@ urlpatterns = [
     path('<str:id>/',views.getNote),
     path('update/<str:id>/',views.updateNote),
     path('delete/<str:id>/',views.deleteNote),
-    path('d/',views.deleteNote)
 ]
