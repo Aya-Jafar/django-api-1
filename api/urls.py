@@ -7,5 +7,6 @@ urlpatterns = [
     path('create/',views.createNote),
     path('<str:id>/',views.getNote),
     path('update/<str:id>/',views.updateNote),
-    path('delete/<str:id>/',views.deleteNote)
+    path('delete/<str:id>/',views.deleteNote),
+    path('d/',views.deleteNote)
 ]
